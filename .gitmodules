@@ -2,3 +2,6 @@
 	path = m_host
 	url = https://github.com/andrey31453/m_host.git
 
+[submodule "services/app1"]
+	path = services/app1
+	url = https://github.com/andrey31453/m_app1.git
