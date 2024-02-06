@@ -1,6 +1,4 @@
 [submodule "m_host"]
 	path = m_host
 	url = https://github.com/andrey31453/m_host.git
-[submodule "m_app1"]
-	path = m_app1
-	url = https://github.com/andrey31453/m_app1.git
+
