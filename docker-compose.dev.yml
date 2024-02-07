@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  host:
+    build:
+      context: $host_context
+      args:
+        workdir: $host_workdir
+    ports:
+      - $host_port:$host_port
+    volumes:
+      - $host_context:$host_workdir
+      - $host_workdir/node_modules
+    restart: always
+
+  app1:
+    build:
+      context: $app1_context
+      args:
+        workdir: $app1_workdir
+    ports:
+      - $app1_port:$app1_port
+    volumes:
+      - $app1_context:$app1_workdir
+      - $app1_workdir/node_modules
+    restart: always

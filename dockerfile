@@ -1,2 +1,3 @@
-FROM alpine/git:latest
-RUN git clone https://github.com/andrey31453/social_wall.git
+FROM node:20.10-alpine
+
+RUN chmod +x ./dev.sh
