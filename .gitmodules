@@ -4,4 +4,4 @@
 
 [submodule "apps/app1"]
 	path = services/app1
-	url = https://github.com/andrey31453/mf_apps_app1.git
+	url = https://github.com/andrey31453/mf_app_app1.git
