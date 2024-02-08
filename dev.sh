@@ -1,3 +1,3 @@
 #!/bin/bash
-node ./preset/bootstrap.js
+node ./configurate/bootstrap.js
 # docker-compose -f docker-compose.dev.yml up
