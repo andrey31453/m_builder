@@ -3,6 +3,7 @@
 /**/*.DS_Store
 /.db
 /.archive
+/**/generate
 
 # compiled output
 /**/dist

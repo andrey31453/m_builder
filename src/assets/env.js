@@ -16,3 +16,8 @@ export const module_names = {
   host: 'host',
   app1: 'app1',
 }
+
+export const dir_names = {
+  manifest: 'manifest.json',
+  generate: 'generate',
+}

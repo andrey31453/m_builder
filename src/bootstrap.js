@@ -1,4 +1,4 @@
-import { setup } from './setup.js'
+import { setup } from './setup/index.js'
 ;(async () => {
   await new Promise((res, rej) => {
     try {
