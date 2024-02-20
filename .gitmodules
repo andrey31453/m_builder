@@ -1,10 +1,14 @@
-[submodule "setup"]
-	path = setup
-	url = https://github.com/andrey31453/mf_setup.git
+# на первом месте всегда должен идти host
+# из списка нельзя удалять строчку
+# path =
+
 [submodule "host"]
 	path = host
 	url = https://github.com/andrey31453/mf_host.git
+# path = 
+[submodule "setup"]
+	path = setup
+	url = https://github.com/andrey31453/mf_setup.git
 [submodule "apps/app1"]
 	path = apps/app1
 	url = https://github.com/andrey31453/mf_app_app1.git
-
