@@ -1,14 +1,15 @@
+# не переписывать
+# данный файл сгенерирован автоматически
+
 /**/package-lock.json
 /**/node_modules
 /**/*.DS_Store
 /.db
-/.archive
-/**/generate
 
 # compiled output
 /**/dist
 
-# Logs
+# logs
 logs
 *.log
 npm-debug.log*
@@ -17,18 +18,26 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# IDEs and editors
+# ide-s
 /.idea
 .project
 .classpath
 .c9/
 *.launch
-.settings/
 *.sublime-workspace
+/.vscode
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# generate
+.eslintrc
+.gitignore
+.prettierignore
+.prettierrc
+dev.sh
+dockerfile
+test.json
+webpack.config.js
+webpack.config.local.js
+webpack.config.template.js
+readme.md
+dev.docker-compose.yml
+webpack.config.from_manifest.js
