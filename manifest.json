@@ -1,4 +1,4 @@
 {
 	"name": "builder",
-	"include_copy_files": ["dev.docker-compose.yml", ".gitignore", "dev.sh"]
+	"include_files": ["dev.docker-compose.yml", ".gitignore", "dev.sh"]
 }
