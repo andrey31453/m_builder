@@ -1,0 +1,44 @@
+# не переписывать
+# данный файл сгенерирован автоматически
+
+version: '3'
+
+services:
+	s_host:
+		build:
+			context: .//host
+			dockerfile: dev.dockerfile
+			args:
+				workdir: /mf/host
+		ports:
+			- 8001:8001
+		volumes:
+			- .//host:/mf/host
+			- /mf/host/node_modules
+		restart: always
+
+	s_setup:
+		build:
+			context: .//setup
+			dockerfile: dev.dockerfile
+			args:
+				workdir: /mf/setup
+		ports:
+			- 8002:8002
+		volumes:
+			- .//setup:/mf/setup
+			- /mf/setup/node_modules
+		restart: always
+
+	s_app1:
+		build:
+			context: .//apps/app1
+			dockerfile: dev.dockerfile
+			args:
+				workdir: /mf/app1
+		ports:
+			- 8003:8003
+		volumes:
+			- .//apps/app1:/mf/app1
+			- /mf/app1/node_modules
+		restart: always
