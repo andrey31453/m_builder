@@ -1,4 +1,9 @@
 {
 	"name": "builder",
-	"include_files": ["dev.docker-compose.yml", ".gitignore", "dev.sh"]
+	"include_files": [
+		"dev.docker-compose.yml",
+		".gitignore",
+		"dev.sh",
+		"readme.md"
+	]
 }
