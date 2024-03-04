@@ -1,0 +1,11 @@
+{
+	"scripts": {
+		"init": "ts-node ./src/init.ts"
+	},
+	
+	
+
+	"name": "builder",
+	"version": "1.0.0",
+	"license": "MIT"
+}
