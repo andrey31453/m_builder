@@ -4,6 +4,7 @@
 		"dev.docker-compose.yml",
 		".gitignore",
 		"dev.sh",
+		"package.json",
 		"readme.md"
 	]
 }
