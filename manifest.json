@@ -1,5 +1,6 @@
 {
 	"name": "builder",
+	"webpack": false,
 	"include_files": [
 		"dev.docker-compose.yml",
 		".gitignore",

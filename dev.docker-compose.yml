@@ -4,6 +4,19 @@
 version: '3'
 
 services:
+	s_builder:
+		build:
+			context: ./
+			dockerfile: dev.dockerfile
+			args:
+				workdir: /mf/builder
+		ports:
+			- 8000:8000
+		volumes:
+			- ./:/mf/builder
+			- /mf/builder/node_modules
+		restart: always
+
 	s_host:
 		build:
 			context: .//host
@@ -15,19 +28,6 @@ services:
 		volumes:
 			- .//host:/mf/host
 			- /mf/host/node_modules
-		restart: always
-
-	s_setup:
-		build:
-			context: .//setup
-			dockerfile: dev.dockerfile
-			args:
-				workdir: /mf/setup
-		ports:
-			- 8002:8002
-		volumes:
-			- .//setup:/mf/setup
-			- /mf/setup/node_modules
 		restart: always
 
 	s_app1:
