@@ -46,11 +46,7 @@ host/dev.dockerfile
 apps/app1/dev.dockerfile
 host/dev.sh
 dev.sh
-setup/dev.sh
 apps/app1/dev.sh
-host/test.json
-setup/test.json
-apps/app1/test.json
 host/webpack.config.js
 apps/app1/webpack.config.js
 host/webpack.config.local.js
@@ -62,6 +58,12 @@ apps/app1/webpack.config.from_manifest.js
 host/dev.docker-compose.yml
 dev.docker-compose.yml
 apps/app1/dev.docker-compose.yml
+host/tsconfig.json
+setup/tsconfig.json
+apps/app1/tsconfig.json
+host/package.json
+setup/package.json
+apps/app1/package.json
 host/tsconfig.json
 setup/tsconfig.json
 apps/app1/tsconfig.json
