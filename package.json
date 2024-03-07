@@ -1,9 +1,0 @@
-{
-	"devDependencies": {
-		"react": "^4.2.0",
-		"react-dom": "^4.2.0"
-	},
-	"name": "builder",
-	"version": "1.0.0",
-	"license": "MIT"
-}
