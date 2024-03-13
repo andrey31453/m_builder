@@ -7,6 +7,3 @@
 [submodule "setup"]
 	path = setup
 	url = https://github.com/andrey31453/mf_setup.git
-[submodule "libs/ts"]
-	path = libs/ts
-	url = https://github.com/andrey31453/arora-npm-ts.git
