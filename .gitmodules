@@ -6,4 +6,4 @@
 	url = https://github.com/andrey31453/mf_app_app1.git
 [submodule "setup"]
 	path = setup
-	url = git@github.com:andrey31453/mf_setup.git
+	url = https://github.com/andrey31453/mf_setup.git
