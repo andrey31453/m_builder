@@ -10,3 +10,6 @@
 [submodule "libs/ts"]
 	path = libs/ts
 	url = https://github.com/andrey31453/arora-npm-ts.git
+[submodule "libs/styles"]
+	path = libs/styles
+	url = https://github.com/andrey31453/arora-npm-styles.git
