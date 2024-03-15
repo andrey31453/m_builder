@@ -48,6 +48,7 @@ libs/ts/.prettierrc.json
 host/dev.dockerfile
 apps/app1/dev.dockerfile
 host/dev.sh
+dev.sh
 apps/app1/dev.sh
 libs/styles/major.sh
 libs/ts/major.sh
@@ -65,6 +66,7 @@ apps/app1/webpack.config.template.js
 host/webpack.config.from_manifest.js
 apps/app1/webpack.config.from_manifest.js
 host/dev.docker-compose.yml
+dev.docker-compose.yml
 apps/app1/dev.docker-compose.yml
 host/tsconfig.json
 setup/tsconfig.json
