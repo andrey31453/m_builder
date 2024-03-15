@@ -1,5 +1,3 @@
 {
-	"name": "builder",
-	"webpack": false,
-	"includes": [".gitignore", "dev.sh", "readme.md", "dev.docker-compose.yml"]
+	"builder": true
 }
