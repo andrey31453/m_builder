@@ -75,8 +75,6 @@ host/package.json
 package.json
 setup/package.json
 apps/app1/package.json
-libs/styles/package.json
-libs/ts/package.json
 host/tsconfig.json
 setup/tsconfig.json
 apps/app1/tsconfig.json
@@ -86,5 +84,3 @@ host/package.json
 package.json
 setup/package.json
 apps/app1/package.json
-libs/styles/package.json
-libs/ts/package.json
