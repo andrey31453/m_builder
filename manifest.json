@@ -1,3 +1,4 @@
 {
-	"builder": true
+  "builder": true,
+  "not_gitignore": ["setup.sh"]
 }

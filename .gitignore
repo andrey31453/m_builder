@@ -29,18 +29,23 @@ lerna-debug.log*
 /.vscode
 
 # generate
-./src/.bd
+src/.bd
+host/.dockerignore
+apps/app1/.dockerignore
 host/.eslintrc
+.eslintrc
 setup/.eslintrc
 apps/app1/.eslintrc
 libs/styles/.eslintrc
 libs/ts/.eslintrc
 host/.prettierignore
+.prettierignore
 setup/.prettierignore
 apps/app1/.prettierignore
 libs/styles/.prettierignore
 libs/ts/.prettierignore
 host/.prettierrc.json
+.prettierrc.json
 setup/.prettierrc.json
 apps/app1/.prettierrc.json
 libs/styles/.prettierrc.json
@@ -56,7 +61,11 @@ libs/styles/minor.sh
 libs/ts/minor.sh
 libs/styles/patch.sh
 libs/ts/patch.sh
-setup.sh
+host/prune.sh
+prune.sh
+apps/app1/prune.sh
+update.sh
+setup/update.sh
 host/webpack.config.js
 apps/app1/webpack.config.js
 host/webpack.config.local.js
@@ -69,15 +78,21 @@ host/dev.docker-compose.yml
 dev.docker-compose.yml
 apps/app1/dev.docker-compose.yml
 host/tsconfig.json
+tsconfig.json
 setup/tsconfig.json
 apps/app1/tsconfig.json
 libs/styles/tsconfig.json
 libs/ts/tsconfig.json
+libs/styles/.version
+libs/ts/.version
 host/package.json
 package.json
 setup/package.json
 apps/app1/package.json
+libs/styles/package.json
+libs/ts/package.json
 host/tsconfig.json
+tsconfig.json
 setup/tsconfig.json
 apps/app1/tsconfig.json
 libs/styles/tsconfig.json
@@ -86,3 +101,5 @@ host/package.json
 package.json
 setup/package.json
 apps/app1/package.json
+libs/styles/package.json
+libs/ts/package.json
